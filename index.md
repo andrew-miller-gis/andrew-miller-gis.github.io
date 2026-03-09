@@ -12,4 +12,4 @@ I am currently a second-year geology student learning spatial analysis using QGI
 
 
 Maunaloa lava morphology
-![qgis map export showing mapped lava flows on Hawai'i](maunaloa.png)
+![qgis map export showing mapped lava flows on Hawai'i](assets/maunaloa.png)
