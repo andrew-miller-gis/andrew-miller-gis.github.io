@@ -6,6 +6,10 @@ I am currently a second-year geology student learning spatial analysis using QGI
 - Mapping lava morphology in Hawai'i and comparing with topographical/elevation data.
 
 ## Tools
--QGIS
-Excel
-Spatial Analysis
+- QGIS
+- Excel
+- Spatial Analysis
+
+
+Maunaloa lava morphology
+![qgis map export showing mapped lava flows on Hawai'i](maunaloa.png)
