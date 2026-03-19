@@ -6,7 +6,7 @@
 
 ## Data Visualisation 
 
-- All of the data has been visualised in CRS: EPSG 27700, British National Grid 
+- All of the data has been projected in CRS: EPSG 27700, British National Grid 
 
 ![QGIS map showing London MSOAs](../assets2/Londonbasic.png)
 
