@@ -10,14 +10,14 @@
 
 ![QGIS map showing London MSOAs](../assets2/Londonbasic.png)
 
+- The graph above shows Greater London split into Middle layer Super Output Areas - defined by the ONS as comprising 2,000 to 6,000 households.
+- The River Thames has been digitally traced using OS open rivers data as reference. 
+
 ![QGIS map showing London Underground Network](../assets2/tube_network.png)
 
 - The tube lines have been colourised using the TfL colour standard, available: https://content.tfl.gov.uk/tfl-colour-standard.pdf
 
 ![QGIS map showing Northern Line walking route](../assets2/route.png)
-
-- tfl colour standards
-- CRS: British National Grid 
 
 ## Methodology
 - Walkable street network: import relevant counties from geofabrik.
