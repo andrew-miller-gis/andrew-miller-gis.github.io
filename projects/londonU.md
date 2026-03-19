@@ -19,6 +19,7 @@
 
 ![QGIS map showing Northern Line walking route](../assets2/route.png)
 
+
 ## Methodology
 - Walkable street network: import relevant counties from geofabrik.
 - merge vectors. create (shapefile) polygon roughly outlining tube network.
@@ -38,7 +39,9 @@
 - Merge these lines segments into single layer.
 - Dijkstra?
 
-- exporting and publish. 
+- exporting and publish.
+
+  
 
 ## Data Sources
 - ONS (MSOAs)
@@ -48,10 +51,13 @@
 - geofabrik OSM data extracts: Greater London, Hertfordshire, Buckinghamshire, Essex (street network)
 
 
+
 ## Skills 
 - cleaning data inside QGIS
 - GeoJSON, shapefile, Geopackage
 - MSOAs UK datasets ONS
+
+
 
 ## Real world application 
 - Hike!
