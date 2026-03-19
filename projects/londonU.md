@@ -1,14 +1,18 @@
-# What why whys it interesting 
+## The Walkable Tube Project
+
 - my intention was to use network analysis to devise walking routes on street level mimicking the underground tube lines.
-- in the interests of limiting scope somewhat i decided to focus on the northern line as i am most familiar with it. 
+- i've decided to first focus on the northern line as i am most familiar with it. 
 
 
-# Visualisation Data 
+# Data Visualisation 
 
+- All of the data has been visualised in CRS: EPSG 27700, British National Grid 
 
-![QGIS map showing London Underground Network](../assets2/Londonbasic.png)
+![QGIS map showing London MSOAs](../assets2/Londonbasic.png)
 
 ![QGIS map showing London Underground Network](../assets2/tube_network.png)
+
+- The tube lines have been colourised using the TfL colour standard, available: https://content.tfl.gov.uk/tfl-colour-standard.pdf
 
 ![QGIS map showing Northern Line walking route](../assets2/route.png)
 
