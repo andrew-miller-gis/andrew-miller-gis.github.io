@@ -53,9 +53,12 @@
 
 
 ## Skills 
-- cleaning data inside QGIS
-- GeoJSON, shapefile, Geopackage
-- MSOAs UK datasets ONS
+- Cleaning data inside QGIS: refactoring, field calculation, filtering attributes
+- Handling of GeoJSON, shapefile, Geopackage file types
+- Spatial data acquisition of UK datasets: OS, ONS
+- QNEAT3 Shortest path algorithm 
+- Attribution creation and calculation
+- Print layout creation
 
 
 
@@ -65,12 +68,6 @@
 - At current walking speed a mile takes approximately 20 minutes.
 - The route should be walkable in around 8 hours.   
 
-
-
-
-
-- field calculator, filtering attribute tables.
-- read in CSV file. compare to data. delimiting. 
 
 
 - enable snapping.
