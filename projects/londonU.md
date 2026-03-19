@@ -41,12 +41,11 @@
 - exporting and publish. 
 
 ## Data Sources
-- QuickOSM Plugin query stations 
-- Overpass turbo request network tube lines
-- geofabrik OSM data extracts: Greater London, Hertfordshire, Buckinghamshire, Essex
-- digitise trace Thames from sat layer
-- data sources and acquisition. e.g. removing g london filter etc. 
-
+- ONS (MSOAs)
+- OS Open Rivers (River Thames)
+- QuickOSM Plugin query (tube stations)
+- Overpass turbo request (tube lines)
+- geofabrik OSM data extracts: Greater London, Hertfordshire, Buckinghamshire, Essex (street network)
 
 
 ## Skills 
@@ -56,6 +55,14 @@
 
 ## Real world application 
 - Hike!
+- The High Barnet to Morden via Bank walking route runs 38.660km or approximately 24 miles.
+- At current walking speed a mile takes approximately 20 minutes.
+- The route should be walkable in around 8 hours.   
+
+
+
+
+
 - field calculator, filtering attribute tables.
 - read in CSV file. compare to data. delimiting. 
 
