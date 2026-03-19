@@ -4,8 +4,8 @@ I am currently a second-year geology student learning spatial analysis using QGI
 
 ## Projects 
 - [Mapping lava morphology in Hawai'i and comparing with topographical/elevation data.](projects/hawai'i-lava-morph.md)
-- [London cycle path network analysis.](projects/cycle-paths.md)
-- [The walkable tube network analysis.](projects/londonU.md)
+- [London Cycle Path network analysis.](projects/cycle-paths.md)
+- [The Walkable Tube Project.](projects/londonU.md)
 
 
 ## Tools
