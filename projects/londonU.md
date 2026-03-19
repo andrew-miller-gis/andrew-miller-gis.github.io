@@ -1,10 +1,10 @@
-## The Walkable Tube Project
+# The Walkable Tube Project
 
 - my intention was to use network analysis to devise walking routes on street level mimicking the underground tube lines.
 - i've decided to first focus on the northern line as i am most familiar with it. 
 
 
-# Data Visualisation 
+## Data Visualisation 
 
 - All of the data has been visualised in CRS: EPSG 27700, British National Grid 
 
@@ -19,7 +19,7 @@
 - tfl colour standards
 - CRS: British National Grid 
 
-# Methodology
+## Methodology
 - Walkable street network: import relevant counties from geofabrik.
 - merge vectors. create (shapefile) polygon roughly outlining tube network.
 - clip to mask (polygon)
@@ -40,7 +40,7 @@
 
 - exporting and publish. 
 
-# Data Sources
+## Data Sources
 - QuickOSM Plugin query stations 
 - Overpass turbo request network tube lines
 - geofabrik OSM data extracts: Greater London, Hertfordshire, Buckinghamshire, Essex
@@ -49,17 +49,16 @@
 
 
 
-# Skills 
+## Skills 
 - cleaning data inside QGIS
 - GeoJSON, shapefile, Geopackage
 - MSOAs UK datasets ONS
 
-# Real life application 
+## Real world application 
 - Hike!
 - field calculator, filtering attribute tables.
 - read in CSV file. compare to data. delimiting. 
 
 
-# Additional notes. 
 - enable snapping.
 
