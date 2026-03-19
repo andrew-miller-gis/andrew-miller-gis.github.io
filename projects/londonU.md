@@ -1,3 +1,8 @@
+---
+layout: default
+title: Cycle path analysis
+---
+
 # The Walkable Tube Project
 
 - For this project my intention was to use network analysis to devise walking routes on street level mimicking the underground tube lines.
