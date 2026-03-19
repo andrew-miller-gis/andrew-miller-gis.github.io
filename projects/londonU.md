@@ -1,7 +1,7 @@
 # The Walkable Tube Project
 
-- my intention was to use network analysis to devise walking routes on street level mimicking the underground tube lines.
-- i've decided to first focus on the northern line as i am most familiar with it. 
+- For this project my intention was to use network analysis to devise walking routes on street level mimicking the underground tube lines.
+- I've decided to first focus on the northern line as i am most familiar with it. 
 
 
 ## Data Visualisation 
