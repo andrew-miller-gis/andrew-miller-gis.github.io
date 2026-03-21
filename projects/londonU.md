@@ -12,7 +12,7 @@ title: Walkable Tube
 *Computed walking route for the Northern Line (38.66 km), generated using QNEAT3 shortest‑path analysis.*
 
 
-###I have always been excited by the London Underground, particularly the experience of going below ground, following the schematic map and emerging the other side of London with no tangible experience of the route. The desire to understand how this travel happens geographically has inspired this project. Using QGIS network analysis I have attempted to generate walkable, street-level routes than mimic the London Underground lines, starting with the Northern line. 
+### I have always been excited by the London Underground, particularly the experience of going below ground, following the schematic map and emerging the other side of London with no tangible experience of the route. The desire to understand how this travel happens geographically has inspired this project. Using QGIS network analysis I have attempted to generate walkable, street-level routes than mimic the London Underground lines, starting with the Northern line. 
 
 <br>
 <br>
