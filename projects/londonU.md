@@ -13,18 +13,13 @@ I have always been excited by the London Underground, particularly the experienc
 
 ## Data Visualisation 
 
-- All of the datasets have been projected into CRS: EPSG 27700, British National Grid for consistency.
-
 ![QGIS map showing London MSOAs](../assets2/Londonbasic.png)
 
+- All of the datasets have been projected into CRS: EPSG 27700, British National Grid for consistency.
 - MSOAs for Greater London were used to provide geographic context.
 - The River Thames has been manually traced using OS Open Rivers data as reference. 
-
-![QGIS map showing London Underground Network](../assets2/tube_network.png)
-
 - The tube lines have been colourised using the official TfL colour standard.
 - The final map shows the computed walking route for the Northern line.
-
 
 
 ## Methodology
@@ -39,6 +34,8 @@ I have always been excited by the London Underground, particularly the experienc
 - Split multi-line station entries using ; delimiter to ensure each served line became its own feature.
 - Filter records by line e.g. 'northern', save selected features into individual layers.
 - Adjust station locations to reflect real entrance positions rather than centroids.
+
+![QGIS map showing London Underground Network](../assets2/tube_network.png)
 
 ### Network Analysis
 - Use QNEAT3 plugin to compute shortest path (point to point) between consecutive stations. (uses Dijkstra's algorithm).
