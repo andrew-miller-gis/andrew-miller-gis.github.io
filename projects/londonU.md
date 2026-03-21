@@ -26,7 +26,9 @@ I have always been excited by the London Underground, particularly the experienc
 ### Building the Walkable Street Network
 - Import relevant OSM extracts from Geofabrik.
 - Merge highway vector layers and clip to a custom polygon approximating the Tube network extent. 
-- Exclude non-walkable features (motorway and motorway_link). 
+- Exclude non-walkable features (motorway and motorway_link).
+
+![Image - clipped street network](../assets2/street_net.png)
 
 ### Tube network and station layers
 - Add station and network datasets (.gpkg, .geojson)
@@ -35,7 +37,9 @@ I have always been excited by the London Underground, particularly the experienc
 - Filter records by line e.g. 'northern', save selected features into individual layers.
 - Adjust station locations to reflect real entrance positions rather than centroids.
 
-![QGIS map showing London Underground Network](../assets2/tube_network.png)
+![Image - Station and network datasets](../assets2/dataset.png)
+
+
 
 ### Network Analysis
 - Use QNEAT3 plugin to compute shortest path (point to point) between consecutive stations. (uses Dijkstra's algorithm).
@@ -43,6 +47,8 @@ I have always been excited by the London Underground, particularly the experienc
 
 ### Cartographic Output
 - Create a print layout and export as .png
+
+![QGIS map showing London Underground Network](../assets2/tube_network.png)
   
 
 ## Data Sources
