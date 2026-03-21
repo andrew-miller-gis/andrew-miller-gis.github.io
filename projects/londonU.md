@@ -61,8 +61,9 @@ title: Walkable Tube
 <br>
 <br>
 
-
-<p align="center"> <img src="../assets2/street_net.png")> </p>
+<p align="center"> 
+  <img src="../assets2/street_net.png" alt="alt text"> 
+</p>
 
 
 
@@ -75,11 +76,18 @@ title: Walkable Tube
 
 <br>
 
-![QGIS map showing Northern Line walking route](../assets2/algo.png)
+<p align="center"> 
+  <img src="../assets2/algo.png" alt="alt text"> 
+</p>
 
+<br>
+<br>
 
+<p align="center"> 
+  <img src="../assets2/northernwalk.png" alt="alt text"> 
+</p>
 
-<p align="center"> <img src="../assets2/northernwalk.png")> </p>
+<br>
 
 
 ### Cartographic Output
