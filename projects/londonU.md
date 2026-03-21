@@ -37,19 +37,17 @@ I have always been excited by the London Underground, particularly the experienc
 - Filter records by line e.g. 'northern', save selected features into individual layers.
 - Adjust station locations to reflect real entrance positions rather than centroids.
 
-![Image - Station and network datasets](../assets2/dataset.png)
-
+![Image - Station and network datasets](../assets2/datasets.png)
 
 
 ### Network Analysis
 - Use QNEAT3 plugin to compute shortest path (point to point) between consecutive stations. (uses Dijkstra's algorithm).
 - Merge resultant segments into single layer to form a continuous walking route.
 
+
+
 ### Cartographic Output
 - Create a print layout and export as .png
-
-![QGIS map showing London Underground Network](../assets2/tube_network.png)
-  
 
 ## Data Sources
 - ONS (MSOAs)
@@ -58,7 +56,11 @@ I have always been excited by the London Underground, particularly the experienc
 - Overpass turbo request (Tube network)
 - Geofabrik OSM data extracts: Greater London, Hertfordshire, Buckinghamshire, Essex (street network)
 
-
+## Key Outcomes
+- Generated a walkable analogue of the Northern Line
+- Built a reproducible workflow for future lines
+- Demonstrated shortest-path network analysis using Dijkstra's algorithm
+- Produced a cartographically polished map using official TfL colour standards.
 
 ## Skills Demonstrated
 - Cleaning spatial data inside QGIS: refactoring, field calculation, filtering attributes
@@ -67,6 +69,8 @@ I have always been excited by the London Underground, particularly the experienc
 - Network analysis using QNEAT3 plugin, shortest path algorithm
 - Attribution creation and calculation
 - Print layout production
+
+![QGIS map showing London Underground Network](../assets2/tube_network.png)
 
 ## Reflection 
 - This project taught me a lot about attribute tables. Particularly filtering, homogenising how data is presented.
