@@ -5,7 +5,7 @@ title: Walkable Tube
 
 # The Walkable Tube Project
 
-##A GIS network analysis project recreating the London Underground’s Northern Line as a walkable, street‑level route using QNEAT3, OSM data, and custom cartography. Demonstrates data cleaning, spatial analysis, reproducible workflows, and professional map design.
+## A GIS network analysis project recreating the London Underground’s Northern Line as a walkable, street‑level route using QNEAT3, OSM data, and custom cartography. Demonstrates data cleaning, spatial analysis, reproducible workflows, and professional map design.
 
 
 ![QGIS map showing Northern Line walking route](../assets2/route.png)
