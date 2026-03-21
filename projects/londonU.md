@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cycle path analysis
+title: Walkable Tube
 ---
 
 # The Walkable Tube Project
