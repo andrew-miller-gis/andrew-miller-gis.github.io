@@ -44,6 +44,7 @@ I have always been excited by the London Underground, particularly the experienc
 - Use QNEAT3 plugin to compute shortest path (point to point) between consecutive stations. (uses Dijkstra's algorithm).
 - Merge resultant segments into single layer to form a continuous walking route.
 
+![Image - Walking Route Northern Line](../assets2/northernwalk.png)
 
 
 ### Cartographic Output
