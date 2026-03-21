@@ -44,7 +44,9 @@ title: Walkable Tube
 - Filter records by line e.g. 'northern', save selected features into individual layers.
 - Adjust station locations to reflect real entrance positions rather than centroids.
 
-<p align="center"> <img src="../assets2/datasets.png")> </p>
+<p align="center"> 
+  <img src="../assets2/datasets.png" alt="alt text"> 
+</p>
 
 
 
@@ -72,6 +74,10 @@ title: Walkable Tube
 - Merge resultant segments into single layer to form a continuous walking route.
 
 <br>
+
+![QGIS map showing Northern Line walking route](../assets2/algo.png)
+
+
 
 <p align="center"> <img src="../assets2/northernwalk.png")> </p>
 
