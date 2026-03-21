@@ -73,7 +73,7 @@ title: Walkable Tube
 
 <br>
 
-<p align="center"> <![Image - Walking Route Northern Line](../assets2/northernwalk.png)> <p align="center">
+<p align="center"> <img src="../assets2/northernwalk.png")> </p>
 
 
 ### Cartographic Output
