@@ -5,7 +5,7 @@ title: Walkable Tube
 
 # The Walkable Tube Project
 
-This project aims to use QGIS network analysis to generate walkable, street-level routes than mimic the London Underground lines.
+I have always been excited by the London Underground, particularly the experience of going below ground, following the schematic map and emerging the other side of London with no tangible experience of the route. The desire to understand how this travel happens geographically has inspired this project. Using QGIS network analysis I have attempted to generate walkable, street-level routes than mimic the London Underground lines, starting with the Northern line. 
 
 
 
@@ -40,7 +40,7 @@ This project aims to use QGIS network analysis to generate walkable, street-leve
 - Adjust station locations to reflect real entrance positions rather than centroids.
 
 ### Network Analysis
-- Use QNEST3 plugin to compute shortest path (point to point) between consequtive stations. (uses Dijkstra's algorithm).
+- Use QNEAT3 plugin to compute shortest path (point to point) between consecutive stations. (uses Dijkstra's algorithm).
 - Merge resultant segments into single layer to form a continuous walking route.
 
 ### Cartographic Output
@@ -63,3 +63,16 @@ This project aims to use QGIS network analysis to generate walkable, street-leve
 - Network analysis using QNEAT3 plugin, shortest path algorithm
 - Attribution creation and calculation
 - Print layout production
+
+## Reflection 
+- This project taught me a lot about attribute tables. Particularly filtering, homogenising how data is presented.
+- Also, Network analysis principles and how to query OSM for the correct data eg location parameters, tags.
+  
+
+- I would like to test the Northern line route. 38.660 km is approximately 24 miles. I estimate this will be walkable over about 8 hours.
+- I'd like to export the data as directions, and to collect data using Strava to later analyse whether the time taken and distance estimates are accurate for each line segment.
+- Ultimately I would like to extend the process to the remaining Tube lines, potentially automating the time-consuming process of entering parameters for 'shortest path' for each individual station.
+- I'd then like to utilise the data to complete the goal of walking the entire network. 
+
+
+
