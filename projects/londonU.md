@@ -5,14 +5,14 @@ title: Walkable Tube
 
 # The Walkable Tube Project
 
-A GIS network analysis project recreating the London Underground’s Northern Line as a walkable, street‑level route using QNEAT3, OSM data, and custom cartography. Demonstrates data cleaning, spatial analysis, reproducible workflows, and professional map design.
+##A GIS network analysis project recreating the London Underground’s Northern Line as a walkable, street‑level route using QNEAT3, OSM data, and custom cartography. Demonstrates data cleaning, spatial analysis, reproducible workflows, and professional map design.
 
 
 ![QGIS map showing Northern Line walking route](../assets2/route.png)
 *Computed walking route for the Northern Line (38.66 km), generated using QNEAT3 shortest‑path analysis.*
 
 
-I have always been excited by the London Underground, particularly the experience of going below ground, following the schematic map and emerging the other side of London with no tangible experience of the route. The desire to understand how this travel happens geographically has inspired this project. Using QGIS network analysis I have attempted to generate walkable, street-level routes than mimic the London Underground lines, starting with the Northern line. 
+###I have always been excited by the London Underground, particularly the experience of going below ground, following the schematic map and emerging the other side of London with no tangible experience of the route. The desire to understand how this travel happens geographically has inspired this project. Using QGIS network analysis I have attempted to generate walkable, street-level routes than mimic the London Underground lines, starting with the Northern line. 
 
 <br>
 <br>
@@ -53,7 +53,8 @@ I have always been excited by the London Underground, particularly the experienc
 - Merge highway vector layers and clip to a custom polygon approximating the Tube network extent. 
 - Exclude non-walkable features (motorway and motorway_link).
 
-
+<br>
+<br>
 
 ![Image - clipped street network](../assets2/street_net.png)
 
@@ -66,6 +67,7 @@ I have always been excited by the London Underground, particularly the experienc
 - Use QNEAT3 plugin to compute shortest path (point to point) between consecutive stations. (uses Dijkstra's algorithm).
 - Merge resultant segments into single layer to form a continuous walking route.
 
+<br>
 
 ![Image - Walking Route Northern Line](../assets2/northernwalk.png)
 
