@@ -16,6 +16,7 @@ title: Walkable Tube
 
 <br>
 <br>
+
 ## Data Visualisation 
 
 
@@ -55,6 +56,8 @@ title: Walkable Tube
 
 <br>
 <br>
+<br>
+
 
 ![Image - clipped street network](../assets2/street_net.png)
 
