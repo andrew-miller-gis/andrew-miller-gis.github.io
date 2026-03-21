@@ -3,11 +3,18 @@ layout: default
 title: Walkable Tube
 ---
 
+![QGIS map showing Northern Line walking route](../assets2/route.png)
+*Computed walking route for the Northern Line (38.66 km), generated using QNEAT3 shortest‑path analysis.*
+
+
+
 # The Walkable Tube Project
 
-![QGIS map showing Northern Line walking route](../assets2/route.png)
+## A GIS network analysis project recreating the London Underground’s Northern Line as a walkable, street‑level route using QNEAT3, OSM data, and custom cartography. Demonstrates data cleaning, spatial analysis, reproducible workflows, and professional map design.
 
-I have always been excited by the London Underground, particularly the experience of going below ground, following the schematic map and emerging the other side of London with no tangible experience of the route. The desire to understand how this travel happens geographically has inspired this project. Using QGIS network analysis I have attempted to generate walkable, street-level routes than mimic the London Underground lines, starting with the Northern line. 
+
+
+## I have always been excited by the London Underground, particularly the experience of going below ground, following the schematic map and emerging the other side of London with no tangible experience of the route. The desire to understand how this travel happens geographically has inspired this project. Using QGIS network analysis I have attempted to generate walkable, street-level routes than mimic the London Underground lines, starting with the Northern line. 
 
 
 
@@ -23,7 +30,9 @@ I have always been excited by the London Underground, particularly the experienc
 
 
 ## Methodology
+
 ### Tube network and station layers
+
 - Add station and network datasets (.gpkg, .geojson)
 - Clean station data: refactor to remove unnecessary fields, trim text, standardise case. 
 - Split multi-line station entries using ; delimiter to ensure each served line became its own feature.
@@ -34,6 +43,7 @@ I have always been excited by the London Underground, particularly the experienc
 
 
 ### Building the Walkable Street Network
+
 - Import relevant OSM extracts from Geofabrik.
 - Merge highway vector layers and clip to a custom polygon approximating the Tube network extent. 
 - Exclude non-walkable features (motorway and motorway_link).
@@ -42,6 +52,7 @@ I have always been excited by the London Underground, particularly the experienc
 
 
 ### Network Analysis
+
 - Use QNEAT3 plugin to compute shortest path (point to point) between consecutive stations. (uses Dijkstra's algorithm).
 - Merge resultant segments into single layer to form a continuous walking route.
 
@@ -49,9 +60,11 @@ I have always been excited by the London Underground, particularly the experienc
 
 
 ### Cartographic Output
+
 - Create a print layout and export as .png
 
 ## Data Sources
+
 - ONS (MSOAs)
 - OS Open Rivers (River Thames)
 - QuickOSM plugin query (Tube station data)
@@ -59,12 +72,14 @@ I have always been excited by the London Underground, particularly the experienc
 - Geofabrik OSM data extracts: Greater London, Hertfordshire, Buckinghamshire, Essex (street network)
 
 ## Key Outcomes
+
 - Generated a walkable analogue of the Northern Line
 - Built a reproducible workflow for future lines
 - Demonstrated shortest-path network analysis using Dijkstra's algorithm
 - Produced a cartographically polished map using official TfL colour standards.
 
 ## Skills Demonstrated
+
 - Cleaning spatial data inside QGIS: refactoring, field calculation, filtering attributes
 - Handling of GeoJSON, shapefile, Geopackage formats
 - Spatial data acquisition of UK datasets: OS, ONS
@@ -74,8 +89,8 @@ I have always been excited by the London Underground, particularly the experienc
 
 ![QGIS map showing London Underground Network](../assets2/tube_network.png)
 
-## Reflection 
-### What I learned
+## Professional Insights and Next Steps
+
 - I gained a lot of confidence in working with attribute tables to clean and organise spatial data, as well as using comparison operations against a verified CSV list of Tube stations to ensure the dataset was complete. (272 stations total!) 
 - It was an opportunity to use Network analysis, including Dijkstra's algorithm, which uses vertices from the street network as nodes, examines potential routes between them and uses the shortest / lowest cost route repeatedly to generate a path to the destination station specified.
 - I learnt how to better query OSM to specify the data I needed. For instance, using a Greater London location parameter excluded those stations outside the administrative London borders. 
