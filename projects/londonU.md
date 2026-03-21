@@ -60,7 +60,7 @@ title: Walkable Tube
 <br>
 
 
-<p align="center"> ![Image - clipped street network](../assets2/street_net.png) <p align="center">
+<p align="center"> <img src="../assets2/street_net.png")> </p>
 
 
 
