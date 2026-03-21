@@ -44,8 +44,8 @@ title: Walkable Tube
 - Filter records by line e.g. 'northern', save selected features into individual layers.
 - Adjust station locations to reflect real entrance positions rather than centroids.
 
+<p align="center"> <img src="../assets2/datasets.png")> </p>
 
-![Image - Station and network datasets](../assets2/datasets.png)
 
 
 ### Building the Walkable Street Network
