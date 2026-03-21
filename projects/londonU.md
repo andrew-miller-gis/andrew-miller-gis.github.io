@@ -14,8 +14,8 @@ A GIS network analysis project recreating the London Underground’s Northern Li
 
 I have always been excited by the London Underground, particularly the experience of going below ground, following the schematic map and emerging the other side of London with no tangible experience of the route. The desire to understand how this travel happens geographically has inspired this project. Using QGIS network analysis I have attempted to generate walkable, street-level routes than mimic the London Underground lines, starting with the Northern line. 
 
-
-
+<br>
+<br>
 ## Data Visualisation 
 
 
@@ -27,7 +27,8 @@ I have always been excited by the London Underground, particularly the experienc
 - The River Thames has been manually traced using OS Open Rivers data as reference. 
 - The tube lines have been colourised using the official TfL colour standard.
 - The final map shows the computed walking route for the Northern line.
-
+<br>
+<br>
 
 ## Methodology
 
@@ -74,7 +75,8 @@ I have always been excited by the London Underground, particularly the experienc
 
 - Create a print layout and export as .png
 
-
+<br>
+<br>
 
 ## Data Sources
 
@@ -85,6 +87,8 @@ I have always been excited by the London Underground, particularly the experienc
 - Overpass turbo request (Tube network)
 - Geofabrik OSM data extracts: Greater London, Hertfordshire, Buckinghamshire, Essex (street network)
 
+<br>
+<br>
 
 ## Key Outcomes
 
@@ -94,6 +98,8 @@ I have always been excited by the London Underground, particularly the experienc
 - Demonstrated shortest-path network analysis using Dijkstra's algorithm
 - Produced a cartographically polished map using official TfL colour standards.
 
+<br>
+<br>
 
 ## Skills Demonstrated
 
@@ -108,7 +114,8 @@ I have always been excited by the London Underground, particularly the experienc
 
 ![QGIS map showing London Underground Network](../assets2/tube_network.png)
 
-
+<br>
+<br>
 
 ## Professional Insights and Next Steps
 
